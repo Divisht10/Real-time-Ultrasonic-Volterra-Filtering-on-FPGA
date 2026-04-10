@@ -1,0 +1,19 @@
+# Project Requirements
+
+# MATLAB Environment
+MATLAB >= R2022a
+
+# FPGA Development Tools
+Xilinx Vivado >= 2020.2
+
+# Hardware Interface
+Ethernet configured on FPGA board 
+
+# Py for data simulation (scripting)
+Python >= 3.8
+
+# Operating System
+Windows / Linux (Tested on Windows 10 / Ubuntu)
+
+# Version Control
+Git
