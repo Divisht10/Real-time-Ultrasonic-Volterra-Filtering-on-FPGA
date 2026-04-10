@@ -1,4 +1,4 @@
-# FPGA Implementation for Real-time Ultrasound Volterra Filtering
+# Real-Time FPGA Implementation of Chirp Coded Subharmonic Ultrasound Imaging Using Volterra Nonlinear Filtering
 
 **Authors:** Divisht Dahiya, Helly Bera, Amartya Tuljapurkar   
 Guidance: Prof. Joycee Mekie
