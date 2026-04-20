@@ -12,3 +12,22 @@ The core of this project is the transition from high-level mathematical prototyp
 The pipeline focuses on using **Subharmonic Matched Filtering** and **Volterra Filtering** to isolate signals from ultrasound contrast agents. By moving these algorithms from **MATLAB** to an **FPGA**, we achieve the high-throughput processing required for real-time clinical diagnostics.
 
 ## 📁 Repository Structure
+```text
+├── MATLAB/                         # MATLAB scripts
+├── Presentations/                  # Project presentations and slides
+├── docs/
+│   └── Real-time_FPGA_Implementation paper
+├── fpga/
+│   ├── Beamforming/               
+│   ├── Convolution/               
+│   ├── Dot_Product/               
+│   ├── Flip_matrix/               
+│   ├── Interpolation_decimation/  
+│   ├── Product_function/
+│   ├── square_root_function/    
+│   ├── wrapper_(all functions)/   # Wrapper integrating all modules
+├── volterra_code_with_custom.m    # MATLAB implementation of Volterra model
+├── requirements.txt               # Dependencies 
+├── .gitignore                     # Git ignore rules
+└── README.md                      # Project documentation
+```
