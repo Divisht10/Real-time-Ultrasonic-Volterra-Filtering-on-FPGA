@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fullmf_smallgrid_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fullmf_smallgrid" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.616299266 ms"></ZoomStartTime>
+      <ZoomEndTime time="3.650254267 ms"></ZoomEndTime>
+      <Cursor1Time time="2.638545000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="98" />
+   <wvobject fp_name="/tb_fullmf_smallgrid/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/enable_sweep" type="logic">
+      <obj_property name="ElementShortName">enable_sweep</obj_property>
+      <obj_property name="ObjectShortName">enable_sweep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/enable_volterra" type="logic">
+      <obj_property name="ElementShortName">enable_volterra</obj_property>
+      <obj_property name="ObjectShortName">enable_volterra</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pixel_ready" type="logic">
+      <obj_property name="ElementShortName">pixel_ready</obj_property>
+      <obj_property name="ObjectShortName">pixel_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/rf_ptr" type="array">
+      <obj_property name="ElementShortName">rf_ptr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_ptr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/rf_run" type="logic">
+      <obj_property name="ElementShortName">rf_run</obj_property>
+      <obj_property name="ObjectShortName">rf_run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/rf_ready" type="logic">
+      <obj_property name="ElementShortName">rf_ready</obj_property>
+      <obj_property name="ObjectShortName">rf_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/rf_din" type="array">
+      <obj_property name="ElementShortName">rf_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/rf_din_valid" type="logic">
+      <obj_property name="ElementShortName">rf_din_valid</obj_property>
+      <obj_property name="ObjectShortName">rf_din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pixel_out" type="array">
+      <obj_property name="ElementShortName">pixel_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pixel_out_valid" type="logic">
+      <obj_property name="ElementShortName">pixel_out_valid</obj_property>
+      <obj_property name="ObjectShortName">pixel_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pixel_lat_idx" type="array">
+      <obj_property name="ElementShortName">pixel_lat_idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_lat_idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pixel_ax_idx" type="array">
+      <obj_property name="ElementShortName">pixel_ax_idx[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_ax_idx[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/out_rd_addr" type="array">
+      <obj_property name="ElementShortName">out_rd_addr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">out_rd_addr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/out_rd_en" type="logic">
+      <obj_property name="ElementShortName">out_rd_en</obj_property>
+      <obj_property name="ObjectShortName">out_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/env22_out" type="array">
+      <obj_property name="ElementShortName">env22_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env22_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/env23_out" type="array">
+      <obj_property name="ElementShortName">env23_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env23_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/mf_done" type="logic">
+      <obj_property name="ElementShortName">mf_done</obj_property>
+      <obj_property name="ObjectShortName">mf_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/have_golden" type="logic">
+      <obj_property name="ElementShortName">have_golden</obj_property>
+      <obj_property name="ObjectShortName">have_golden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pixel_cnt" type="array">
+      <obj_property name="ElementShortName">pixel_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pix_nonzero" type="array">
+      <obj_property name="ElementShortName">pix_nonzero[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_nonzero[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/pix_x" type="array">
+      <obj_property name="ElementShortName">pix_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/w1_writes" type="array">
+      <obj_property name="ElementShortName">w1_writes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w1_writes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/w1_errors" type="array">
+      <obj_property name="ElementShortName">w1_errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w1_errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/env_nz" type="array">
+      <obj_property name="ElementShortName">env_nz[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env_nz[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/env_x" type="array">
+      <obj_property name="ElementShortName">env_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/env_neg" type="array">
+      <obj_property name="ElementShortName">env_neg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env_neg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/env_n" type="array">
+      <obj_property name="ElementShortName">env_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/ax" type="array">
+      <obj_property name="ElementShortName">ax[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ax[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/lat" type="array">
+      <obj_property name="ElementShortName">lat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lat[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/fp" type="array">
+      <obj_property name="ElementShortName">fp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/fp22" type="array">
+      <obj_property name="ElementShortName">fp22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp22[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/fp23" type="array">
+      <obj_property name="ElementShortName">fp23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp23[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/e22" type="array">
+      <obj_property name="ElementShortName">e22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e22[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/e23" type="array">
+      <obj_property name="ElementShortName">e23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e23[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/mf_seen" type="logic">
+      <obj_property name="ElementShortName">mf_seen</obj_property>
+      <obj_property name="ObjectShortName">mf_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/done_seen" type="logic">
+      <obj_property name="ElementShortName">done_seen</obj_property>
+      <obj_property name="ObjectShortName">done_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/fails" type="array">
+      <obj_property name="ElementShortName">fails[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fails[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/enable_sweep" type="logic">
+      <obj_property name="ElementShortName">enable_sweep</obj_property>
+      <obj_property name="ObjectShortName">enable_sweep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/enable_volterra" type="logic">
+      <obj_property name="ElementShortName">enable_volterra</obj_property>
+      <obj_property name="ObjectShortName">enable_volterra</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/pixel_ready" type="logic">
+      <obj_property name="ElementShortName">pixel_ready</obj_property>
+      <obj_property name="ObjectShortName">pixel_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/rf_din" type="array">
+      <obj_property name="ElementShortName">rf_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/rf_din_valid" type="logic">
+      <obj_property name="ElementShortName">rf_din_valid</obj_property>
+      <obj_property name="ObjectShortName">rf_din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/rf_ready" type="logic">
+      <obj_property name="ElementShortName">rf_ready</obj_property>
+      <obj_property name="ObjectShortName">rf_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/pixel_out" type="array">
+      <obj_property name="ElementShortName">pixel_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_out[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/pixel_out_valid" type="logic">
+      <obj_property name="ElementShortName">pixel_out_valid</obj_property>
+      <obj_property name="ObjectShortName">pixel_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/pixel_lat_idx" type="array">
+      <obj_property name="ElementShortName">pixel_lat_idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_lat_idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/pixel_ax_idx" type="array">
+      <obj_property name="ElementShortName">pixel_ax_idx[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_ax_idx[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/out_rd_en" type="logic">
+      <obj_property name="ElementShortName">out_rd_en</obj_property>
+      <obj_property name="ObjectShortName">out_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/out_rd_addr" type="array">
+      <obj_property name="ElementShortName">out_rd_addr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">out_rd_addr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/env22_out" type="array">
+      <obj_property name="ElementShortName">env22_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env22_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/env23_out" type="array">
+      <obj_property name="ElementShortName">env23_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">env23_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_done" type="logic">
+      <obj_property name="ElementShortName">mf_done</obj_property>
+      <obj_property name="ObjectShortName">mf_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/hh_rom" type="array">
+      <obj_property name="ElementShortName">hh_rom[0:24][31:0]</obj_property>
+      <obj_property name="ObjectShortName">hh_rom[0:24][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/ww_rom" type="array">
+      <obj_property name="ElementShortName">ww_rom[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ww_rom[0:127][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_din" type="array">
+      <obj_property name="ElementShortName">mf_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mf_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_din_valid" type="logic">
+      <obj_property name="ElementShortName">mf_din_valid</obj_property>
+      <obj_property name="ObjectShortName">mf_din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_rst" type="logic">
+      <obj_property name="ElementShortName">mf_rst</obj_property>
+      <obj_property name="ObjectShortName">mf_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_dout" type="array">
+      <obj_property name="ElementShortName">mf_dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mf_dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_dout_valid" type="logic">
+      <obj_property name="ElementShortName">mf_dout_valid</obj_property>
+      <obj_property name="ObjectShortName">mf_dout_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bank_waddr" type="array">
+      <obj_property name="ElementShortName">bank_waddr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">bank_waddr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bank_we" type="logic">
+      <obj_property name="ElementShortName">bank_we</obj_property>
+      <obj_property name="ObjectShortName">bank_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bank_wdata" type="array">
+      <obj_property name="ElementShortName">bank_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bank_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bank_raddr" type="array">
+      <obj_property name="ElementShortName">bank_raddr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">bank_raddr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bank_rdata" type="array">
+      <obj_property name="ElementShortName">bank_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bank_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_x_pixel" type="array">
+      <obj_property name="ElementShortName">bf_x_pixel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_x_pixel[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_z_pixel" type="array">
+      <obj_property name="ElementShortName">bf_z_pixel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_z_pixel[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_center_idx" type="array">
+      <obj_property name="ElementShortName">bf_center_idx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_center_idx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_start" type="logic">
+      <obj_property name="ElementShortName">bf_start</obj_property>
+      <obj_property name="ObjectShortName">bf_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_pixel_val" type="array">
+      <obj_property name="ElementShortName">bf_pixel_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_pixel_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_pixel_valid" type="logic">
+      <obj_property name="ElementShortName">bf_pixel_valid</obj_property>
+      <obj_property name="ObjectShortName">bf_pixel_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_waddr" type="array">
+      <obj_property name="ElementShortName">bf_waddr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_waddr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_we" type="logic">
+      <obj_property name="ElementShortName">bf_we</obj_property>
+      <obj_property name="ObjectShortName">bf_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_wdata" type="array">
+      <obj_property name="ElementShortName">bf_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/w3_bf_rd_data_r" type="array">
+      <obj_property name="ElementShortName">w3_bf_rd_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w3_bf_rd_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/w3_bf_rd_addr" type="array">
+      <obj_property name="ElementShortName">w3_bf_rd_addr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">w3_bf_rd_addr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_wr_addr" type="array">
+      <obj_property name="ElementShortName">bf_wr_addr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_wr_addr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/w2_done_r" type="logic">
+      <obj_property name="ElementShortName">w2_done_r</obj_property>
+      <obj_property name="ObjectShortName">w2_done_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/w3_done_int" type="logic">
+      <obj_property name="ElementShortName">w3_done_int</obj_property>
+      <obj_property name="ObjectShortName">w3_done_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/w3_busy_int" type="logic">
+      <obj_property name="ElementShortName">w3_busy_int</obj_property>
+      <obj_property name="ObjectShortName">w3_busy_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_state" type="array">
+      <obj_property name="ElementShortName">mf_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mf_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_ch" type="array">
+      <obj_property name="ElementShortName">mf_ch[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mf_ch[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/pad_cnt" type="array">
+      <obj_property name="ElementShortName">pad_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pad_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/samp_cnt" type="array">
+      <obj_property name="ElementShortName">samp_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">samp_cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/out_cnt" type="array">
+      <obj_property name="ElementShortName">out_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">out_cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_ch_ext" type="array">
+      <obj_property name="ElementShortName">mf_ch_ext[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mf_ch_ext[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/out_cnt_ext" type="array">
+      <obj_property name="ElementShortName">out_cnt_ext[17:0]</obj_property>
+      <obj_property name="ObjectShortName">out_cnt_ext[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_wr_addr" type="array">
+      <obj_property name="ElementShortName">mf_wr_addr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mf_wr_addr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/mf_capture" type="logic">
+      <obj_property name="ElementShortName">mf_capture</obj_property>
+      <obj_property name="ObjectShortName">mf_capture</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/t_state" type="array">
+      <obj_property name="ElementShortName">t_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">t_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/lat_idx" type="array">
+      <obj_property name="ElementShortName">lat_idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/ax_idx" type="array">
+      <obj_property name="ElementShortName">ax_idx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ax_idx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/bf_seen_low" type="logic">
+      <obj_property name="ElementShortName">bf_seen_low</obj_property>
+      <obj_property name="ObjectShortName">bf_seen_low</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fullmf_smallgrid/dut/w3_started" type="logic">
+      <obj_property name="ElementShortName">w3_started</obj_property>
+      <obj_property name="ObjectShortName">w3_started</obj_property>
+   </wvobject>
+</wave_config>
